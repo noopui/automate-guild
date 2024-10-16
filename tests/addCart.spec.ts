@@ -20,6 +20,8 @@ test.describe('Add product to cart', () => {
         await page.locator('.productinfo [data-product-id="1"]').click();
         await expect(page.getByRole('heading', { name: 'Added' })).toBeVisible();
 
+        //11
+
 
 
      
